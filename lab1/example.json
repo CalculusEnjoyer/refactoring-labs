@@ -1,0 +1,591 @@
+[
+  {
+    "Attributes": [
+      {
+        "Key": "NAME",
+        "Value": "AMSSEG"
+      },
+      {
+        "Key": "BYTES",
+        "Value": "1100"
+      }
+    ],
+    "Fields": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(AMSNUM,SEQ,U)"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "15"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSAPP"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "4"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSNO"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "8"
+          },
+          {
+            "Key": "START",
+            "Value": "5"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSPAG"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "3"
+          },
+          {
+            "Key": "START",
+            "Value": "13"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSTYPE"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "1"
+          },
+          {
+            "Key": "START",
+            "Value": "16"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSCLASS"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "1"
+          },
+          {
+            "Key": "START",
+            "Value": "17"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDTCR"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "4"
+          },
+          {
+            "Key": "START",
+            "Value": "18"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDTMD"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "4"
+          },
+          {
+            "Key": "START",
+            "Value": "22"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDAAPP"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "8"
+          },
+          {
+            "Key": "START",
+            "Value": "903"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDATIS"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "8"
+          },
+          {
+            "Key": "START",
+            "Value": "911"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDAISD"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "8"
+          },
+          {
+            "Key": "START",
+            "Value": "919"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSINSTP"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "14"
+          },
+          {
+            "Key": "START",
+            "Value": "149"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "AMSDID"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "8"
+          },
+          {
+            "Key": "START",
+            "Value": "619"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      }
+    ],
+    "LChilds": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(AMSNUMI,AMSDX)"
+          },
+          {
+            "Key": "PTR",
+            "Value": "INDX"
+          }
+        ]
+      }
+    ],
+    "XDFlds": null
+  },
+  {
+    "Attributes": [
+      {
+        "Key": "NAME",
+        "Value": "RANGSEG"
+      },
+      {
+        "Key": "PARENT",
+        "Value": "AMSSEG"
+      },
+      {
+        "Key": "BYTES",
+        "Value": "500"
+      }
+    ],
+    "Fields": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(RANGNUM,SEQ,U)"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "6"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "RANGRS"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "1"
+          },
+          {
+            "Key": "START",
+            "Value": "5"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "RANGAPPA"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "6"
+          },
+          {
+            "Key": "START",
+            "Value": "8"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      }
+    ],
+    "LChilds": null,
+    "XDFlds": null
+  },
+  {
+    "Attributes": [
+      {
+        "Key": "NAME",
+        "Value": "COMSEG"
+      },
+      {
+        "Key": "PARENT",
+        "Value": "AMSSEG"
+      },
+      {
+        "Key": "BYTES",
+        "Value": "70"
+      }
+    ],
+    "Fields": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(COMNUM,SEQ,U)"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "2"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      }
+    ],
+    "LChilds": null,
+    "XDFlds": null
+  },
+  {
+    "Attributes": [
+      {
+        "Key": "NAME",
+        "Value": "EXPSEG"
+      },
+      {
+        "Key": "PARENT",
+        "Value": "AMSSEG"
+      },
+      {
+        "Key": "BYTES",
+        "Value": "20"
+      }
+    ],
+    "Fields": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(EXPNUM,SEQ,U)"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "9"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "EXPREPP"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "1"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "EXPROGM"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "2"
+          },
+          {
+            "Key": "START",
+            "Value": "2"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "EXPCODEX"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "6"
+          },
+          {
+            "Key": "START",
+            "Value": "4"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      }
+    ],
+    "LChilds": null,
+    "XDFlds": null
+  },
+  {
+    "Attributes": [
+      {
+        "Key": "NAME",
+        "Value": "SUIVISEG"
+      },
+      {
+        "Key": "PARENT",
+        "Value": "AMSSEG"
+      },
+      {
+        "Key": "BYTES",
+        "Value": "60"
+      }
+    ],
+    "Fields": [
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "(RGINDNUM,SEQ,U)"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "9"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "SUIRANG"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "6"
+          },
+          {
+            "Key": "START",
+            "Value": "1"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      },
+      {
+        "Attributes": [
+          {
+            "Key": "NAME",
+            "Value": "SUIVIND"
+          },
+          {
+            "Key": "BYTES",
+            "Value": "3"
+          },
+          {
+            "Key": "START",
+            "Value": "7"
+          },
+          {
+            "Key": "TYPE",
+            "Value": "C"
+          }
+        ]
+      }
+    ],
+    "LChilds": null,
+    "XDFlds": null
+  }
+]
